@@ -1,0 +1,12 @@
+scenedetect[opencv]
+pandas
+imagehash 
+pillow
+scikit-image
+opencv-contrib-python
+ultralytics
+torch 
+torchvision 
+torchaudio
+transformers
+scikit-learn

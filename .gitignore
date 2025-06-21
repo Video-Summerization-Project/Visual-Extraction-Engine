@@ -1,0 +1,4 @@
+venv/
+raw_videos/
+output/
+__pycache__/
