@@ -1,12 +1,7 @@
-scenedetect[opencv]
 pandas
-imagehash 
+opencv-contrib-python
 pillow
 scikit-image
-opencv-contrib-python
-ultralytics
-torch 
-torchvision 
-torchaudio
-transformers
 scikit-learn
+torch 
+transformers
