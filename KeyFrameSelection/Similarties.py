@@ -23,7 +23,7 @@ def hash_filter(records, hash_threshold=5, ssim_threshold=0.90, ssim_compare_win
         list: List of tuples (frame, frame_idx) representing filtered, distinct keyframes.
     """
     
-    hasher = cv2.img_hash.PHash_create()
+    hasher = cv2.img_hash.createPHash()
     seen_hashes = []
     distinct_records = []
 
