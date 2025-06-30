@@ -64,3 +64,6 @@ runtime.txt
 
 # large files
 raw_videos/
+
+# Unwanted files
+WhatsApp* 
