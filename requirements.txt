@@ -8,3 +8,7 @@ layoutparser
 torchvision
 layoutparser[layoutmodels]
 pillow<10.0.0
+
+
+python-dotenv
+google-generativeai
