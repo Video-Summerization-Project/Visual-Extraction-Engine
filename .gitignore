@@ -1,3 +1,66 @@
+# Python bytecode
+**/__pycache__/*
+*.py[cod]
+*.so
+
+# Virtual environments
+env/
 venv/
+.venv/
+myenv/
+
+# Conda environments
+*.conda
+*.env
+*.env_backup
+*.yml
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+notebooks/*.csv
+notebook.ipynb
+
+# IDE configs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# System files
+.DS_Store
+Thumbs.db
+Desktop.ini
+Icon?
+
+# Logs
+*.log
+
+# Flask / app data
+instance/
+.cache/
+*.sqlite3
+
+# Model files
+*.pkl
+*.pt
+*.npy
+
+# Package build
+*.egg-info/
+dist/
+build/
+
+# Env variables
+.env
+
+# Test cache
+.pytest_cache/
+
+# Heroku / Railway
+runtime.txt
+
+# Other tools
+.history
+
+# large files
 raw_videos/
-__pycache__/
