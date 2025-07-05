@@ -1,8 +1,8 @@
 import os
 import csv
 import pandas as pd
+import av
 import cv2
-
 
 def _get_timestamp(frame_idx, fps):
     """
@@ -15,7 +15,6 @@ def _get_timestamp(frame_idx, fps):
     Returns:
         str: Timestamp in the format 'HH:MM:SS.mmm' representing the frame time.
     """
-
     seconds = frame_idx / fps
     h = int(seconds // 3600)
     m = int((seconds % 3600) // 60)
@@ -36,26 +35,18 @@ def process_video(video_path, interval_sec=3):
             - records (list): List of tuples (frame, frame_idx) for each sampled frame.
             - fps (float): Frames per second of the input video.
     """
-
-    cap = cv2.VideoCapture(video_path)
-    fps = cap.get(cv2.CAP_PROP_FPS)
-    if fps == 0:
-        fps = 30
-    total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
-    frame_interval = int(fps * interval_sec)
+    container = av.open(video_path)
+    stream = container.streams.video[0]
+    fps = float(stream.average_rate)
+    interval = int(fps * interval_sec)
 
     records = []
+    for i, frame in enumerate(container.decode(video=0)):
+        if i % interval == 0:
+            img = frame.to_ndarray(format="bgr24")
+            records.append((img, i))
 
-    for frame_idx in range(0, total_frames, frame_interval):
-        cap.set(cv2.CAP_PROP_POS_FRAMES, frame_idx)
-        ret, frame = cap.read()
-        if not ret:
-            break
-        records.append((frame, frame_idx))
-
-    cap.release()
     return records, fps
-
 
 def save_records(records, output_dir, output_csv, fps):
     """
@@ -70,19 +61,16 @@ def save_records(records, output_dir, output_csv, fps):
     Returns:
         pandas.DataFrame: DataFrame containing the saved keyframe paths and their corresponding timestamps.
     """
-    
-    if not os.path.exists(output_dir):
-        os.makedirs(output_dir)
-        
-    with open(output_csv, mode='w', newline='') as f:
-        writer = csv.writer(f)
-        writer.writerow(["keyframe", "timestamp"])
+    os.makedirs(output_dir, exist_ok=True)
 
-        for i, (frame, frame_idx) in enumerate(records):
-            frame_name = f"keyframe_{i:04d}.jpg"
-            out_path = os.path.join(output_dir, frame_name)
-            cv2.imwrite(out_path, frame, [int(cv2.IMWRITE_JPEG_QUALITY), 85])
-            timestamp = _get_timestamp(frame_idx, fps)
-            writer.writerow([out_path, timestamp])
+    rows = []
+    for i, (frame, frame_idx) in enumerate(records):
+        frame_name = f"keyframe_{i:04d}.jpg"
+        out_path = os.path.join(output_dir, frame_name)
+        cv2.imwrite(out_path, frame, [int(cv2.IMWRITE_JPEG_QUALITY), 70])
+        timestamp = _get_timestamp(frame_idx, fps)
+        rows.append([out_path, timestamp])
 
-    return pd.read_csv(output_csv)
+    df = pd.DataFrame(rows, columns=["keyframe", "timestamp"])
+    df.to_csv(output_csv, index=False)
+    return df

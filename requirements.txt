@@ -3,5 +3,7 @@ opencv-contrib-python
 pillow
 scikit-image
 scikit-learn
-torch 
+torch
 transformers
+imagehash
+av

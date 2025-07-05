@@ -1,13 +1,19 @@
 import cv2
 from PIL import Image
+import imagehash
 from skimage.metrics import structural_similarity as ssim
 from sklearn.metrics.pairwise import cosine_similarity
 import torch
 from transformers import CLIPProcessor, CLIPModel
+import numpy as np
+from concurrent.futures import ThreadPoolExecutor
 
 clip_model = CLIPModel.from_pretrained("openai/clip-vit-base-patch32")
 clip_processor = CLIPProcessor.from_pretrained("openai/clip-vit-base-patch32")
 clip_model.eval()
+
+def _resize_gray(frame):
+    return cv2.resize(cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY), (128, 128))
 
 def hash_filter(records, hash_threshold=5, ssim_threshold=0.90, ssim_compare_window=3):
     """
@@ -22,35 +28,38 @@ def hash_filter(records, hash_threshold=5, ssim_threshold=0.90, ssim_compare_win
     Returns:
         list: List of tuples (frame, frame_idx) representing filtered, distinct keyframes.
     """
-    
-    hasher = cv2.img_hash.PHash_create()
+    resized_cache = {idx: _resize_gray(frame) for frame, idx in records}
+
+    def compute_hash(frame):
+        return imagehash.phash(Image.fromarray(cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)))
+
+    with ThreadPoolExecutor() as executor:
+        hashes = list(executor.map(lambda x: compute_hash(x[0]), records))
+
     seen_hashes = []
-    distinct_records = []
+    distinct = []
 
-    for frame, frame_idx in records:
-        gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-        resized_gray = cv2.resize(gray, (128, 128))
+    for i, (frame, frame_idx) in enumerate(records):
+        img_hash = hashes[i]
 
-        img_hash = hasher.compute(frame)
-        is_duplicate_hash = any(cv2.norm(img_hash, h, cv2.NORM_HAMMING) <= hash_threshold for h in seen_hashes)
-        if is_duplicate_hash:
+        if any(abs(img_hash - h) <= hash_threshold for h in seen_hashes):
             continue
         seen_hashes.append(img_hash)
 
-        is_distinct_ssim = True
-        for prev_frame, _ in distinct_records[-ssim_compare_window:]:
-            prev_gray = cv2.cvtColor(prev_frame, cv2.COLOR_BGR2GRAY)
-            prev_resized = cv2.resize(prev_gray, (128, 128))
-            if ssim(resized_gray, prev_resized) > ssim_threshold:
-                is_distinct_ssim = False
+        is_distinct = True
+        resized_gray = resized_cache[frame_idx]
+        for _, prev_idx in distinct[-ssim_compare_window:]:
+            prev_gray = resized_cache[prev_idx]
+            if ssim(resized_gray, prev_gray) > ssim_threshold:
+                is_distinct = False
                 break
 
-        if is_distinct_ssim:
-            distinct_records.append((frame, frame_idx))
+        if is_distinct:
+            distinct.append((frame, frame_idx))
 
-    return distinct_records
+    return distinct
 
-def _get_clip_embedding(frame):
+def _get_clip_embeddings(frames):
     """
     Computes the CLIP image embedding for a given video frame.
 
@@ -60,33 +69,38 @@ def _get_clip_embedding(frame):
     Returns:
         np.ndarray: A normalized 1D NumPy array representing the CLIP image embedding.
     """
-
-    image = Image.fromarray(cv2.cvtColor(frame, cv2.COLOR_BGR2RGB))
-    inputs = clip_processor(images=image, return_tensors="pt", padding=True)
+    images = [Image.fromarray(cv2.cvtColor(f, cv2.COLOR_BGR2RGB)) for f in frames]
+    inputs = clip_processor(images=images, return_tensors="pt", padding=True)
     with torch.no_grad():
-        embeddings = clip_model.get_image_features(**inputs)
-        embeddings = torch.nn.functional.normalize(embeddings, p=2, dim=1)
-    return embeddings[0].cpu().numpy()
+        features = clip_model.get_image_features(**inputs)
+        normed = torch.nn.functional.normalize(features, p=2, dim=1)
+    return normed.cpu().numpy()
 
-def clip_filter(records, similarity_threshold=0.85, compare_window=5):
+def clip_filter(records, similarity_threshold=0.85, compare_window=5, batch_size=8):
     """
-    Filters frames using CLIP image embeddings and cosine similarity to remove semantically similar frames.
+    Filters frames using CLIP embeddings and cosine similarity in batch mode (CPU-optimized).
 
     Args:
-        records (list): List of tuples (frame, frame_idx) representing sampled video frames.
-        similarity_threshold (float, optional): Maximum cosine similarity allowed between embeddings to consider frames distinct. Defaults to 0.85.
-        compare_window (int, optional): Number of recent embeddings to compare against for similarity. Defaults to 5.
+        records (list): List of (frame, frame_idx) tuples.
+        similarity_threshold (float): Max cosine similarity to keep frame distinct.
+        compare_window (int): How many past frames to compare against.
+        batch_size (int): Number of frames to embed per batch (for speed).
 
     Returns:
-        list: List of tuples (frame, frame_idx) representing filtered, semantically distinct keyframes.
+        list: Filtered list of (frame, frame_idx) tuples with distinct content.
     """
+    frames, frame_idxs = zip(*records)
+    embeddings = []
 
-    distinct_records = []
+    for i in range(0, len(frames), batch_size):
+        batch_frames = frames[i:i+batch_size]
+        batch_embs = _get_clip_embeddings(batch_frames)
+        embeddings.extend(batch_embs)
+
+    distinct = []
     past_embeddings = []
 
-    for frame, frame_idx in records:
-        emb = _get_clip_embedding(frame)
-
+    for i, emb in enumerate(embeddings):
         is_distinct = True
         for prev_emb in past_embeddings[-compare_window:]:
             sim = cosine_similarity([emb], [prev_emb])[0][0]
@@ -95,7 +109,7 @@ def clip_filter(records, similarity_threshold=0.85, compare_window=5):
                 break
 
         if is_distinct:
-            distinct_records.append((frame, frame_idx))
+            distinct.append((frames[i], frame_idxs[i]))
             past_embeddings.append(emb)
 
-    return distinct_records
+    return distinct
