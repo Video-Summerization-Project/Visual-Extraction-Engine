@@ -6,7 +6,7 @@ from KeyFrameSelection.Similarties import hash_filter, clip_filter
 
 keyframe_dir = 'outputs/keyframes'
 csv_path = 'outputs/keyframes.csv'
-video_path = 'RawVideos\Filters - Mohammad Ayed (720p, h264).mp4' # Change this to your video file path
+video_path = 'RawVideos\Linear Regression - Hesham Asem (720p, h264).mp4' # Change this to your video file path
 
 def main():
     # Process the video and extract keyframes
