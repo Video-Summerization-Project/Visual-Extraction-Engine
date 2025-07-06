@@ -4,7 +4,7 @@ An AI-powered engine for extracting and summarizing key visual content from vide
 
 ---
 
-## 🚀 Features
+## Features
 - Intelligent keyframe selection based on visual and semantic importance
 - Frame-level summarization using LangChain-compatible LLM agents
 - OCR for slide and board content
@@ -13,7 +13,7 @@ An AI-powered engine for extracting and summarizing key visual content from vide
 
 ---
 
-## 🚧 Installation
+## Installation
 
 ```bash
 git clone https://github.com/Video-Summerization-Project/Visual-Extraction-Engine.git
@@ -25,7 +25,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🔧 Usage
+## Usage
 
 ### 1. Prepare Inputs
 - Create a `.env` file with required paths or configurations (see `config/paths.py` for reference)
@@ -85,29 +85,4 @@ Visual-Extraction-Engine/
 
 > Note: `.env` file and `RawVideos/` folder are user-dependent and should be created manually.
 
----
-
-
-## 📊 Notebooks
-- `Scene_detection.ipynb`: Frame change detection logic
-- `Tags_Agent.ipynb`: Experimental LLM-based tag generation
-
----
-
-## 📡 Tech Stack
-- Python 3.10+
-- OpenCV, Tesseract OCR
-- LangChain (LLM agent workflow)
-- Custom graph processor architecture
-
----
-
-## 🌐 License
-MIT License. See `LICENSE` file for details.
-
----
-
-## 🐝 Contributors
-- [Amr Kahla](https://github.com/AmrKahla)
-- [Team Members]
 
