@@ -1,4 +1,5 @@
 pandas
+dotenv
 opencv-contrib-python
 pillow
 scikit-image
@@ -7,3 +8,7 @@ torch
 transformers
 imagehash
 av
+langchain
+langchain_community
+langchain_google_genai
+langgraph

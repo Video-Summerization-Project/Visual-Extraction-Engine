@@ -1,0 +1,482 @@
+[
+  {
+    "frame": "Screenshot (41) (1).png",
+    "path": "/content/uploaded_images/Screenshot (41) (1).png",
+    "importance": "important",
+    "reason": "The frame displays a bar chart visualizing the relationship between education levels and subscription status. This is a key finding and important data point likely central to the video's analysis or presentation.  The code shown is also relevant as it demonstrates how the data was generated.",
+    "description": {
+      "image_name": "Screenshot (41) (1).png",
+      "extracted_text": "تمت مشاركة عنصر واحد معا \"One item shared\"\nsemi-final-project-sic.ipynb\nAl501 - Web Scraping-20\nWelcome to Chrome\nsemi-final-project-sic.ipynb\nSaving failed since 9:12PM\ndivorced\nmarried\nsingle\nMarital Status\nunknown\nAre there any differences in education levels between subscribers and non-subscribers? (Q4)\n`# Count the number of subscribers and non-subscribers for each education level\neducation_counts = df.groupby(['education', 'y']).size().reset_index(name='count')\n# Create a stacked bar chart to compare education levels among subscribers and non-subscribers\nfig = px.bar(education_counts, x='education', y='count', color='y', barmode='stack',\ntitle='Education Levels - Subscribers vs. Non-Subscribers')\nfig.update_layout(xaxis_title='Education Level', yaxis_title='Count')\nfig.show()`\nEducation Levels - Subscribers vs. Non-Subscribers\nAutomatic saving failed. This file was updated remotely or in another tab. Show diff economic indicators, such as the employment variation rate and consumer price index. You want to know\nConnected to Python 3 Google Compute Engine backend\n10:16 AM\n20/09/2023",
+      "visual_description": "The image contains a stacked bar chart visualizing the distribution of education levels among subscribers and non-subscribers. The x-axis represents different education levels (basic.4y, basic.6y, basic.9y, high.school, illiterate, professional.course, university.degree, unknown), and the y-axis represents the count.  The bars are stacked, with the blue portion representing non-subscribers and the orange portion representing subscribers.  A legend clearly indicates which color corresponds to \"yes\" (subscribers) and \"no\" (non-subscribers).  The chart title is \"Education Levels - Subscribers vs. Non-Subscribers\".",
+      "raw_output": "Image Name: Screenshot (41) (1).png\nExtracted Text: \nتمت مشاركة عنصر واحد معا \"One item shared\"\nsemi-final-project-sic.ipynb\nAl501 - Web Scraping-20\nWelcome to Chrome\nsemi-final-project-sic.ipynb\nSaving failed since 9:12PM\ndivorced\nmarried\nsingle\nMarital Status\nunknown\nAre there any differences in education levels between subscribers and non-subscribers? (Q4)\n`# Count the number of subscribers and non-subscribers for each education level\neducation_counts = df.groupby(['education', 'y']).size().reset_index(name='count')\n# Create a stacked bar chart to compare education levels among subscribers and non-subscribers\nfig = px.bar(education_counts, x='education', y='count', color='y', barmode='stack',\ntitle='Education Levels - Subscribers vs. Non-Subscribers')\nfig.update_layout(xaxis_title='Education Level', yaxis_title='Count')\nfig.show()`\nEducation Levels - Subscribers vs. Non-Subscribers\nAutomatic saving failed. This file was updated remotely or in another tab. Show diff economic indicators, such as the employment variation rate and consumer price index. You want to know\nConnected to Python 3 Google Compute Engine backend\n10:16 AM\n20/09/2023\n\nVisual Description: The image contains a stacked bar chart visualizing the distribution of education levels among subscribers and non-subscribers. The x-axis represents different education levels (basic.4y, basic.6y, basic.9y, high.school, illiterate, professional.course, university.degree, unknown), and the y-axis represents the count.  The bars are stacked, with the blue portion representing non-subscribers and the orange portion representing subscribers.  A legend clearly indicates which color corresponds to \"yes\" (subscribers) and \"no\" (non-subscribers).  The chart title is \"Education Levels - Subscribers vs. Non-Subscribers\"."
+    }
+  },
+  {
+    "frame": "Screenshot (41) (2).png",
+    "path": "/content/uploaded_images/Screenshot (41) (2).png",
+    "importance": "important",
+    "reason": "The frame displays a bar chart visualizing the relationship between education levels and subscription status. This is a key finding that likely summarizes a significant portion of the video's data analysis.  The code shown is also relevant as it directly relates to the generation of the chart.",
+    "description": {
+      "image_name": "Screenshot (41) (2).png",
+      "extracted_text": "تمت مشاركة عنصر واحد معا \"One item shared\"\nsemi-final-project-sic.ipynb\nAl501 - Web Scraping-20\nWelcome to Chrome\nsemi-final-project-sic.ipynb\nSaving failed since 9:12PM\ndivorced\nmarried\nsingle\nMarital Status\nunknown\nAre there any differences in education levels between subscribers and non-subscribers? (Q4)\n`# Count the number of subscribers and non-subscribers for each education level\neducation_counts = df.groupby(['education', 'y']).size().reset_index(name='count')\n# Create a stacked bar chart to compare education levels among subscribers and non-subscribers\nfig = px.bar(education_counts, x='education', y='count', color='y', barmode='stack',\ntitle='Education Levels - Subscribers vs. Non-Subscribers')\nfig.update_layout(xaxis_title='Education Level', yaxis_title='Count')\nfig.show()`\nEducation Levels - Subscribers vs. Non-Subscribers\nAutomatic saving failed. This file was updated remotely or in another tab. Show diff economic indicators, such as the employment variation rate and consumer price index. You want to know\nConnected to Python 3 Google Compute Engine backend\n10:16 AM\n20/09/2023",
+      "visual_description": "The image contains a stacked bar chart visualizing the distribution of education levels among subscribers and non-subscribers. The x-axis represents different education levels (basic.4y, basic.6y, basic.9y, high.school, illiterate, professional.course, university.degree, unknown), and the y-axis represents the count.  The bars are stacked, with the blue portion representing non-subscribers and the orange portion representing subscribers.  A legend clearly indicates which color corresponds to \"yes\" (subscribers) and \"no\" (non-subscribers).  The chart's title is \"Education Levels - Subscribers vs. Non-Subscribers\".",
+      "raw_output": "Image Name: Screenshot (41) (2).png\nExtracted Text: \nتمت مشاركة عنصر واحد معا \"One item shared\"\nsemi-final-project-sic.ipynb\nAl501 - Web Scraping-20\nWelcome to Chrome\nsemi-final-project-sic.ipynb\nSaving failed since 9:12PM\ndivorced\nmarried\nsingle\nMarital Status\nunknown\nAre there any differences in education levels between subscribers and non-subscribers? (Q4)\n`# Count the number of subscribers and non-subscribers for each education level\neducation_counts = df.groupby(['education', 'y']).size().reset_index(name='count')\n# Create a stacked bar chart to compare education levels among subscribers and non-subscribers\nfig = px.bar(education_counts, x='education', y='count', color='y', barmode='stack',\ntitle='Education Levels - Subscribers vs. Non-Subscribers')\nfig.update_layout(xaxis_title='Education Level', yaxis_title='Count')\nfig.show()`\nEducation Levels - Subscribers vs. Non-Subscribers\nAutomatic saving failed. This file was updated remotely or in another tab. Show diff economic indicators, such as the employment variation rate and consumer price index. You want to know\nConnected to Python 3 Google Compute Engine backend\n10:16 AM\n20/09/2023\n\nVisual Description: The image contains a stacked bar chart visualizing the distribution of education levels among subscribers and non-subscribers. The x-axis represents different education levels (basic.4y, basic.6y, basic.9y, high.school, illiterate, professional.course, university.degree, unknown), and the y-axis represents the count.  The bars are stacked, with the blue portion representing non-subscribers and the orange portion representing subscribers.  A legend clearly indicates which color corresponds to \"yes\" (subscribers) and \"no\" (non-subscribers).  The chart's title is \"Education Levels - Subscribers vs. Non-Subscribers\"."
+    }
+  },
+  {
+    "frame": "Screenshot (41).png",
+    "path": "/content/uploaded_images/Screenshot (41).png",
+    "importance": "important",
+    "reason": "The frame displays a bar chart visualizing the relationship between education levels and subscription status. This is a key finding likely central to the video's analysis and conclusions, making it an important frame for the summary.",
+    "description": {
+      "image_name": "Screenshot (41).png",
+      "extracted_text": "تمت مشاركة عنصر واحد معا \"One item shared\"\nsemi-final-project-sic.ipynb\nAl501 - Web Scraping-20\nWelcome to Chrome\nsemi-final-project-sic.ipynb\ncolab.research.google.com/drive/1nbxPKq5Bumv6IFOBwTj2IRYkoh1xAaDs#scrollTo=WsJAy4j-hXZC\nSaving failed since 9:12PM\nsample_data\nbank-additional-full.csv\ndivorced\nmarried\nsingle\nMarital Status\nunknown\nAre there any differences in education levels between subscribers and non-subscribers? (Q4)\n`# Count the number of subscribers and non-subscribers for each education level\neducation_counts = df.groupby(['education', 'y']).size().reset_index(name='count')\n# Create a stacked bar chart to compare education levels among subscribers and non-subscribers\nfig = px.bar(education_counts, x='education', y='count', color='y', barmode='stack',\ntitle='Education Levels - Subscribers vs. Non-Subscribers')\nfig.update_layout(xaxis_title='Education Level', yaxis_title='Count')\nfig.show()`\nEducation Levels - Subscribers vs. Non-Subscribers\nAutomatic saving failed. This file was updated remotely or in another tab. Show diff economic indicators, such as the employment variation rate and consumer price index. You want to know\nConnected to Python 3 Google Compute Engine backend\n10:16 AM\n20/09/2023",
+      "visual_description": "A stacked bar chart visualizing the distribution of education levels among subscribers and non-subscribers. The x-axis represents different education levels (basic.4y, basic.6y, basic.9y, high.school, illiterate, professional.course, university.degree, unknown), and the y-axis represents the count.  Each bar is divided into two segments representing \"yes\" (subscribers) and \"no\" (non-subscribers), allowing for a comparison of education level distribution between the two groups.  A legend clearly indicates which color corresponds to \"yes\" and \"no\".  The chart is titled \"Education Levels - Subscribers vs. Non-Subscribers\".",
+      "raw_output": "Image Name: Screenshot (41).png\nExtracted Text: \nتمت مشاركة عنصر واحد معا \"One item shared\"\nsemi-final-project-sic.ipynb\nAl501 - Web Scraping-20\nWelcome to Chrome\nsemi-final-project-sic.ipynb\ncolab.research.google.com/drive/1nbxPKq5Bumv6IFOBwTj2IRYkoh1xAaDs#scrollTo=WsJAy4j-hXZC\nSaving failed since 9:12PM\nsample_data\nbank-additional-full.csv\ndivorced\nmarried\nsingle\nMarital Status\nunknown\nAre there any differences in education levels between subscribers and non-subscribers? (Q4)\n`# Count the number of subscribers and non-subscribers for each education level\neducation_counts = df.groupby(['education', 'y']).size().reset_index(name='count')\n# Create a stacked bar chart to compare education levels among subscribers and non-subscribers\nfig = px.bar(education_counts, x='education', y='count', color='y', barmode='stack',\ntitle='Education Levels - Subscribers vs. Non-Subscribers')\nfig.update_layout(xaxis_title='Education Level', yaxis_title='Count')\nfig.show()`\nEducation Levels - Subscribers vs. Non-Subscribers\nAutomatic saving failed. This file was updated remotely or in another tab. Show diff economic indicators, such as the employment variation rate and consumer price index. You want to know\nConnected to Python 3 Google Compute Engine backend\n10:16 AM\n20/09/2023\n\nVisual Description: A stacked bar chart visualizing the distribution of education levels among subscribers and non-subscribers. The x-axis represents different education levels (basic.4y, basic.6y, basic.9y, high.school, illiterate, professional.course, university.degree, unknown), and the y-axis represents the count.  Each bar is divided into two segments representing \"yes\" (subscribers) and \"no\" (non-subscribers), allowing for a comparison of education level distribution between the two groups.  A legend clearly indicates which color corresponds to \"yes\" and \"no\".  The chart is titled \"Education Levels - Subscribers vs. Non-Subscribers\"."
+    }
+  },
+  {
+    "frame": "Screenshot (42) (1).png",
+    "path": "/content/uploaded_images/Screenshot (42) (1).png",
+    "importance": "important",
+    "reason": "The frame displays a confusion matrix, a crucial visual representation of the performance of a machine learning model.  This is key information for understanding the model's accuracy and identifying potential issues. The matrix itself contains numerical data, further reinforcing its importance.",
+    "description": {
+      "image_name": "Screenshot (42) (1).png",
+      "extracted_text": "https://colab.research.google.com/drive/1OaauK1xnl-PplialxRsKYTYTZtP8EVvX#scrollTo=fbD_EIC\nSaving failed since 2:30 PM\n[2413 2207 1123]\n[406 515 1431]\nconfusion_matrix\nimport matplotlib.pyplot as plt\nAutomatic saving failed. This file was updated remotely or in another tab.",
+      "visual_description": "The image contains a confusion matrix visualized as a heatmap.  The matrix shows the counts of true positive, true negative, false positive, and false negative predictions for a classification model with three classes: \"negative\", \"neutral\", and \"positive\". The color intensity of each cell represents the magnitude of the count, with darker blues indicating higher values. A color bar is present to show the mapping between color and count.  The x-axis represents the \"Predicted label\" and the y-axis represents the \"True label\".  Each cell contains a numerical value representing the frequency of a specific prediction outcome.",
+      "raw_output": "Image Name: Screenshot (42) (1).png\nExtracted Text:  https://colab.research.google.com/drive/1OaauK1xnl-PplialxRsKYTYTZtP8EVvX#scrollTo=fbD_EIC\nSaving failed since 2:30 PM\n[2413 2207 1123]\n[406 515 1431]\nconfusion_matrix\nimport matplotlib.pyplot as plt\nAutomatic saving failed. This file was updated remotely or in another tab.\n\n\nVisual Description: The image contains a confusion matrix visualized as a heatmap.  The matrix shows the counts of true positive, true negative, false positive, and false negative predictions for a classification model with three classes: \"negative\", \"neutral\", and \"positive\". The color intensity of each cell represents the magnitude of the count, with darker blues indicating higher values. A color bar is present to show the mapping between color and count.  The x-axis represents the \"Predicted label\" and the y-axis represents the \"True label\".  Each cell contains a numerical value representing the frequency of a specific prediction outcome."
+    }
+  },
+  {
+    "frame": "Screenshot (42) (2).png",
+    "path": "/content/uploaded_images/Screenshot (42) (2).png",
+    "importance": "important",
+    "reason": "The frame displays a confusion matrix, a key visual element for evaluating the performance of a machine learning model.  This is essential information for understanding the results and is a key moment in the video.",
+    "description": {
+      "image_name": "Screenshot (42) (2).png",
+      "extracted_text": "`https://colab.research.google.com/drive/1OaauK1xnl-PplialxRsKYTYTZtP8EVvX#scrollTo=fbD_EIC`\nSaving failed since 2:30 PM\n`[2413 2207 1123]`\n`[406 515 1431]`\nconfusion_matrix\nnegative 2791 729 291\nneutral 2413 2207 1123\npositive 406 515 1431\nnegative neutral positive\n`import matplotlib.pyplot as plt`\nAutomatic saving failed. This file was updated remotely or in another tab.",
+      "visual_description": "The image contains a confusion matrix visualized as a heatmap. The matrix shows the counts of true positive, true negative, false positive, and false negative predictions for a classification model with three classes: \"negative\", \"neutral\", and \"positive\".  The color intensity of each cell represents the magnitude of the count, with darker blues indicating higher counts. A color bar is present to show the mapping between color and count values (ranging from approximately 0 to 2500). The x-axis represents the \"Predicted label\" and the y-axis represents the \"True label\".  Each cell displays the numerical count corresponding to its position in the matrix.",
+      "raw_output": "Image Name: Screenshot (42) (2).png\nExtracted Text:  `https://colab.research.google.com/drive/1OaauK1xnl-PplialxRsKYTYTZtP8EVvX#scrollTo=fbD_EIC`\nSaving failed since 2:30 PM\n`[2413 2207 1123]`\n`[406 515 1431]`\nconfusion_matrix\nnegative 2791 729 291\nneutral 2413 2207 1123\npositive 406 515 1431\nnegative neutral positive\n`import matplotlib.pyplot as plt`\nAutomatic saving failed. This file was updated remotely or in another tab.\n\n\nVisual Description: The image contains a confusion matrix visualized as a heatmap. The matrix shows the counts of true positive, true negative, false positive, and false negative predictions for a classification model with three classes: \"negative\", \"neutral\", and \"positive\".  The color intensity of each cell represents the magnitude of the count, with darker blues indicating higher counts. A color bar is present to show the mapping between color and count values (ranging from approximately 0 to 2500). The x-axis represents the \"Predicted label\" and the y-axis represents the \"True label\".  Each cell displays the numerical count corresponding to its position in the matrix."
+    }
+  },
+  {
+    "frame": "Screenshot (42).png",
+    "path": "/content/uploaded_images/Screenshot (42).png",
+    "importance": "important",
+    "reason": "The frame displays a confusion matrix, a crucial visual representation of the performance of a machine learning model.  This is key information for understanding the model's accuracy and identifying potential issues. The matrix provides specific numerical data, making it a significant element for any summary of the video's content.",
+    "description": {
+      "image_name": "Screenshot (42).png",
+      "extracted_text": "https://colab.research.google.com/drive/1OaauK1xnl-PplialxRsKYTYTZtP8EVvX#scrollTo=fbD_EIC\nSaving failed since 2:30 PM\n[2413 2207 1123]\n[406 515 1431]\nconfusion_matrix\n2791\n729\n291\n2413\n2207\n1123\n406\n515\n1431\nnegative\nneutral\npositive\nnegative\nneutral\npositive\nimport matplotlib.pyplot as plt\nAutomatic saving failed. This file was updated remotely or in another tab.",
+      "visual_description": "The image contains a confusion matrix visualized as a heatmap.  The matrix shows the counts of true positive, true negative, false positive, and false negative predictions for a classification model with three classes: \"negative,\" \"neutral,\" and \"positive.\" The color intensity of each cell represents the magnitude of the count, with darker blues indicating higher counts. A color bar is included to show the mapping between color and count values (ranging from approximately 0 to 2500).  The x-axis represents the \"Predicted label\" and the y-axis represents the \"True label\".",
+      "raw_output": "Image Name: Screenshot (42).png\nExtracted Text:  https://colab.research.google.com/drive/1OaauK1xnl-PplialxRsKYTYTZtP8EVvX#scrollTo=fbD_EIC\nSaving failed since 2:30 PM\n[2413 2207 1123]\n[406 515 1431]\nconfusion_matrix\n2791\n729\n291\n2413\n2207\n1123\n406\n515\n1431\nnegative\nneutral\npositive\nnegative\nneutral\npositive\nimport matplotlib.pyplot as plt\nAutomatic saving failed. This file was updated remotely or in another tab.\n\n\nVisual Description: The image contains a confusion matrix visualized as a heatmap.  The matrix shows the counts of true positive, true negative, false positive, and false negative predictions for a classification model with three classes: \"negative,\" \"neutral,\" and \"positive.\" The color intensity of each cell represents the magnitude of the count, with darker blues indicating higher counts. A color bar is included to show the mapping between color and count values (ranging from approximately 0 to 2500).  The x-axis represents the \"Predicted label\" and the y-axis represents the \"True label\"."
+    }
+  },
+  {
+    "frame": "Screenshot (43) (1).png",
+    "path": "/content/uploaded_images/Screenshot (43) (1).png",
+    "importance": "important",
+    "reason": "The frame shows the results of an OCR process on a license plate image.  The code output and the processed images are key to understanding the video's content and demonstrating the success (or failure) of the license plate recognition.  This is essential information for a summary.",
+    "description": {
+      "image_name": "Screenshot (43) (1).png",
+      "extracted_text": "Restricted Mode is intended for safe code browsing. Trust this window to enable all features. Manage Learn More\nrecognize_plate.ipynb  main.py  n = 0\nأصف ٧٢٥٦  \"Asf 7256\"\nAfter cutting second time\nأ ص ن ٧٢٥٦  \"A S N 7256\"\nAfter removing black columns\nأ ص ن ٧٢٥٦  \"A S N 7256\"\n]'7','2','5','6','أ','ص','ن'[ \" '7','2','5','6','A','S','N'[\"\nAccepted\nRead\nCell 6 of 7\n2:42 PM\n28/12/2023",
+      "visual_description": "The image contains three sets of horizontally oriented grayscale images showing the same Arabic license plate number undergoing image processing steps.  Each image is accompanied by a horizontal axis labeled with numbers (0, 50, 100, 150, 200) and a vertical axis labeled with numbers (0, 20, 40). The titles above each set of images indicate the processing stage: \"After cutting second time\" and \"After removing black columns\".  There is also a small image at the bottom showing a photograph of a car, presumably the source of the license plate image.  The images are essentially histograms showing the image processing steps on the license plate.",
+      "raw_output": "Image Name: Screenshot (43) (1).png\n\nExtracted Text:\nRestricted Mode is intended for safe code browsing. Trust this window to enable all features. Manage Learn More\nrecognize_plate.ipynb  main.py  n = 0\nأصف ٧٢٥٦  \"Asf 7256\"\nAfter cutting second time\nأ ص ن ٧٢٥٦  \"A S N 7256\"\nAfter removing black columns\nأ ص ن ٧٢٥٦  \"A S N 7256\"\n]'7','2','5','6','أ','ص','ن'[ \" '7','2','5','6','A','S','N'[\"\nAccepted\nRead\nCell 6 of 7\n2:42 PM\n28/12/2023\n\n\nVisual Description:\nThe image contains three sets of horizontally oriented grayscale images showing the same Arabic license plate number undergoing image processing steps.  Each image is accompanied by a horizontal axis labeled with numbers (0, 50, 100, 150, 200) and a vertical axis labeled with numbers (0, 20, 40). The titles above each set of images indicate the processing stage: \"After cutting second time\" and \"After removing black columns\".  There is also a small image at the bottom showing a photograph of a car, presumably the source of the license plate image.  The images are essentially histograms showing the image processing steps on the license plate."
+    }
+  },
+  {
+    "frame": "Screenshot (43) (2).png",
+    "path": "/content/uploaded_images/Screenshot (43) (2).png",
+    "importance": "important",
+    "reason": "The frame shows the results of an OCR process on a license plate image.  The code output and the resulting recognized characters are key information for understanding the video's purpose and outcome.  This is essential information for a summary.",
+    "description": {
+      "image_name": "Screenshot (43) (2).png",
+      "extracted_text": "Restricted Mode is intended for safe code browsing. Trust this window to enable all features. Manage Learn More\nrecognize_plate.ipynb  main.py  n = 0\nأصف ٧٢٥٦  \"Asf 7256\"\nAfter cutting second time\nأ ص ن ٧٢٥٦ \"Asf 7256\"\nAfter removing black columns\nأ ص ن ٧٢٥٦ \"Asf 7256\"\n['7','2','5','6','أ','ص','ن'] \"['7','2','5','6','A','S','N']\"\nAccepted\nRead\nCell 6 of 7\n2:42 PM\n28/12/2023",
+      "visual_description": "The image contains three sets of grayscale images showing the same Arabic license plate number  \"٧٢٥٦ أ ص ن\" (\"7256 Asf N\") undergoing different processing stages. Each image is accompanied by a horizontal axis labeled from 0 to 200 and a vertical axis labeled from 0 to 40, suggesting pixel coordinates.  The first image is labeled \"أصف ٧٢٥٦\", the second \"After cutting second time\" and the third \"After removing black columns\".  Below these images, there is a Python list containing the extracted characters, including the Arabic letters.  Finally, a small image of a car's rear, presumably the source of the license plate image, is shown at the bottom.",
+      "raw_output": "Image Name: Screenshot (43) (2).png\nExtracted Text: Restricted Mode is intended for safe code browsing. Trust this window to enable all features. Manage Learn More\nrecognize_plate.ipynb  main.py  n = 0\nأصف ٧٢٥٦  \"Asf 7256\"\nAfter cutting second time\nأ ص ن ٧٢٥٦ \"Asf 7256\"\nAfter removing black columns\nأ ص ن ٧٢٥٦ \"Asf 7256\"\n['7','2','5','6','أ','ص','ن'] \"['7','2','5','6','A','S','N']\"\nAccepted\nRead\nCell 6 of 7\n2:42 PM\n28/12/2023\n\n\nVisual Description: The image contains three sets of grayscale images showing the same Arabic license plate number  \"٧٢٥٦ أ ص ن\" (\"7256 Asf N\") undergoing different processing stages. Each image is accompanied by a horizontal axis labeled from 0 to 200 and a vertical axis labeled from 0 to 40, suggesting pixel coordinates.  The first image is labeled \"أصف ٧٢٥٦\", the second \"After cutting second time\" and the third \"After removing black columns\".  Below these images, there is a Python list containing the extracted characters, including the Arabic letters.  Finally, a small image of a car's rear, presumably the source of the license plate image, is shown at the bottom."
+    }
+  },
+  {
+    "frame": "Screenshot (43) (3).png",
+    "path": "/content/uploaded_images/Screenshot (43) (3).png",
+    "importance": "important",
+    "reason": "The frame shows the results of an OCR process on a license plate image.  The code output and the image processing steps are crucial to understanding the video's content and demonstrating the functionality of the program.  This is key information for a summary.",
+    "description": {
+      "image_name": "Screenshot (43) (3).png",
+      "extracted_text": "Error processing text",
+      "visual_description": "Error generating description",
+      "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-1.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 8\n}\n]"
+    }
+  },
+  {
+    "frame": "Screenshot (44) (1).png",
+    "path": "/content/uploaded_images/Screenshot (44) (1).png",
+    "importance": "not_important",
+    "reason": "Failed to evaluate: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-1.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 5\n}\n]"
+  },
+  {
+    "frame": "Screenshot (44) (2).png",
+    "path": "/content/uploaded_images/Screenshot (44) (2).png",
+    "importance": "important",
+    "reason": "The frame displays the results of an online placement test, including the test taker's name, score, and recommended program levels. This is essential information and a key moment in the video.",
+    "description": {
+      "image_name": "Screenshot (44) (2).png",
+      "extracted_text": "مبادرة رواد مصر الرقمية \"Post Attendee - Zoom\" Untitled59.ipynb - Colaboratory  Berlitz Online Testing test.berlitz.com/placement/ Mr. Hajar Elbehairy Thank you for taking the Berlitz Online Placement Test. You have achieved the following result: Berlitz Level 6 / Level B1.2 on the CEF scale. We recommend the following Berlitz program(s): Program Level 6 / Level B1.2 for some useful review. -or- Program Level 7 / Level B1.3. This online placement test is an initial level assessment of your language ability based on your listening and reading skills. Thank you for taking the Berlitz Online Placement Test. Sincerely, Berlitz Testing Services BACK TO WELCOME SCREEN PRINT RESULTS FAQs Privacy Terms  \"12:30 PM 05/03/2024\"",
+      "visual_description": "The image contains a button labeled \"PRINT RESULTS\".  There is also an information icon (i) next to a description of the online placement test.  No charts, diagrams, tables, or other visual representations of data are present.",
+      "raw_output": "Image Name: Screenshot (44) (2).png\nExtracted Text:  مبادرة رواد مصر الرقمية \"Post Attendee - Zoom\" Untitled59.ipynb - Colaboratory  Berlitz Online Testing test.berlitz.com/placement/ Mr. Hajar Elbehairy Thank you for taking the Berlitz Online Placement Test. You have achieved the following result: Berlitz Level 6 / Level B1.2 on the CEF scale. We recommend the following Berlitz program(s): Program Level 6 / Level B1.2 for some useful review. -or- Program Level 7 / Level B1.3. This online placement test is an initial level assessment of your language ability based on your listening and reading skills. Thank you for taking the Berlitz Online Placement Test. Sincerely, Berlitz Testing Services BACK TO WELCOME SCREEN PRINT RESULTS FAQs Privacy Terms  \"12:30 PM 05/03/2024\"\n\nVisual Description: The image contains a button labeled \"PRINT RESULTS\".  There is also an information icon (i) next to a description of the online placement test.  No charts, diagrams, tables, or other visual representations of data are present."
+    }
+  },
+  {
+    "frame": "Screenshot (44).png",
+    "path": "/content/uploaded_images/Screenshot (44).png",
+    "importance": "important",
+    "reason": "The frame displays the results of an online placement test, including the test taker's name, score, and recommended program levels. This is essential information and a key moment in the video.",
+    "description": {
+      "image_name": "Screenshot (44).png",
+      "extracted_text": "مبادرة رواد مصر الرقمية \"Mubadara Rowad Masr Al-رقمية\" Post Attendee - Zoom Untitled59.ipynb - Colaboratory Berlitz Online Testing test.berlitz.com/placement/ Mr. Hajar Elbehairy Thank you for taking the Berlitz Online Placement Test. You have achieved the following result: Berlitz Level 6 / Level B1.2 on the CEF scale. We recommend the following Berlitz program(s): Program Level 6 / Level B1.2 for some useful review. -or- Program Level 7 / Level B1.3. This online placement test is an initial level assessment of your language ability based on your listening and reading skills. Thank you for taking the Berlitz Online Placement Test. Sincerely, Berlitz Testing Services BACK TO WELCOME SCREEN PRINT RESULTS FAQs Privacy Terms 12:30 PM 05/03/2024",
+      "visual_description": "The image contains a button labeled \"PRINT RESULTS\".  There is also an information icon (i) next to a description of the online placement test.  No charts, diagrams, tables, or other visual representations of data are present.",
+      "raw_output": "Image Name: Screenshot (44).png\nExtracted Text:  مبادرة رواد مصر الرقمية \"Mubadara Rowad Masr Al-رقمية\" Post Attendee - Zoom Untitled59.ipynb - Colaboratory Berlitz Online Testing test.berlitz.com/placement/ Mr. Hajar Elbehairy Thank you for taking the Berlitz Online Placement Test. You have achieved the following result: Berlitz Level 6 / Level B1.2 on the CEF scale. We recommend the following Berlitz program(s): Program Level 6 / Level B1.2 for some useful review. -or- Program Level 7 / Level B1.3. This online placement test is an initial level assessment of your language ability based on your listening and reading skills. Thank you for taking the Berlitz Online Placement Test. Sincerely, Berlitz Testing Services BACK TO WELCOME SCREEN PRINT RESULTS FAQs Privacy Terms 12:30 PM 05/03/2024\n\nVisual Description: The image contains a button labeled \"PRINT RESULTS\".  There is also an information icon (i) next to a description of the online placement test.  No charts, diagrams, tables, or other visual representations of data are present."
+    }
+  },
+  {
+    "frame": "Screenshot (45) (1).png",
+    "path": "/content/uploaded_images/Screenshot (45) (1).png",
+    "importance": "important",
+    "reason": "The frame displays the results of an online placement test, including the test taker's name, score, and recommended program levels. This is key information and a significant event in the video.",
+    "description": {
+      "image_name": "Screenshot (45) (1).png",
+      "extracted_text": "Mr. Hajar Elbehairy\nThank you for taking the Berlitz Online Placement Test.\nYou have achieved the following result:\nBerlitz Level 6 / Level B1.2 on the CEF scale.\nWe recommend the following Berlitz program(s):\nProgram Level 6 / Level B1.2 for some useful review.\n-or-\nProgram Level 7 / Level B1.3.\nThis online placement test is an initial level assessment of \"your\" listening and reading skills.\nThank you for taking the Berlitz Online Placement Test.\nSincerely,\nBerlitz Testing Services\nBACK TO WELCOME SCREEN\n\"ت بيه المرة لي فاتت ؟\"  \"What about the last time?\"\n\"على اسمى فى الميتنج\" \"On my name in the meeting\"\n\"إللى بعته\" \"What you sent\"",
+      "visual_description": "The image contains a screenshot showing a Berlitz online placement test result.  A small image of a person (\"hajar Ibhyry\") is visible within a Zoom meeting window. There is also a smaller, partially visible screenshot of what appears to be another similar placement test result.  The main part of the image displays the test results for \"Mr. Hajar Elbehairy,\" indicating a Berlitz Level 6/Level B1.2 achievement and recommending program levels 6 or 7.  No charts, diagrams, tables, or other formal visual data representations are present beyond the text and the Zoom meeting window.",
+      "raw_output": "Image Name: Screenshot (45) (1).png\nExtracted Text: Mr. Hajar Elbehairy\nThank you for taking the Berlitz Online Placement Test.\nYou have achieved the following result:\nBerlitz Level 6 / Level B1.2 on the CEF scale.\nWe recommend the following Berlitz program(s):\nProgram Level 6 / Level B1.2 for some useful review.\n-or-\nProgram Level 7 / Level B1.3.\nThis online placement test is an initial level assessment of \"your\" listening and reading skills.\nThank you for taking the Berlitz Online Placement Test.\nSincerely,\nBerlitz Testing Services\nBACK TO WELCOME SCREEN\n\"ت بيه المرة لي فاتت ؟\"  \"What about the last time?\"\n\"على اسمى فى الميتنج\" \"On my name in the meeting\"\n\"إللى بعته\" \"What you sent\"\n\n\nVisual Description: The image contains a screenshot showing a Berlitz online placement test result.  A small image of a person (\"hajar Ibhyry\") is visible within a Zoom meeting window. There is also a smaller, partially visible screenshot of what appears to be another similar placement test result.  The main part of the image displays the test results for \"Mr. Hajar Elbehairy,\" indicating a Berlitz Level 6/Level B1.2 achievement and recommending program levels 6 or 7.  No charts, diagrams, tables, or other formal visual data representations are present beyond the text and the Zoom meeting window."
+    }
+  },
+  {
+    "frame": "Screenshot (45) (2).png",
+    "path": "/content/uploaded_images/Screenshot (45) (2).png",
+    "importance": "important",
+    "reason": "The frame displays the results of an online placement test, including the test taker's name, score, and recommended program levels. This is key information and a significant event in the video.",
+    "description": {
+      "image_name": "Screenshot (45) (2).png",
+      "extracted_text": "Mr. Hajar Elbehairy\nThank you for taking the Berlitz Online Placement Test.\nYou have achieved the following result:\nBerlitz Level 6 / Level B1.2 on the CEF scale.\nWe recommend the following Berlitz program(s):\nProgram Level 6 / Level B1.2 for some useful review.\n-or-\nProgram Level 7 / Level B1.3.\nThis online placement test is an initial level assessment of \"your\" listening and reading skills.\nThank you for taking the Berlitz Online Placement Test.\nSincerely,\nBerlitz Testing Services\nBACK TO WELCOME SCREEN\n\"ت بيه المرة لي فاتت ؟\"  \"What about the last time?\"\n\"على اسمى فى الميتنج\" \"On my name in the meeting\"\n\"إللى بعته\" \"What you sent\"",
+      "visual_description": "The image contains a screenshot showing a Berlitz online placement test result.  A small video window displays the test-taker, \"hajar Ibhyry\". There is also a smaller screenshot of what appears to be a similar placement test result, likely for another user.  A chat window shows a conversation in Arabic with English words interspersed.  The main part of the image shows the test results, which include the test-taker's name, their achieved Berlitz level and CEF level, and program recommendations.  The visual elements are primarily textual, conveying the results of an online language placement test.",
+      "raw_output": "Image Name: Screenshot (45) (2).png\nExtracted Text: Mr. Hajar Elbehairy\nThank you for taking the Berlitz Online Placement Test.\nYou have achieved the following result:\nBerlitz Level 6 / Level B1.2 on the CEF scale.\nWe recommend the following Berlitz program(s):\nProgram Level 6 / Level B1.2 for some useful review.\n-or-\nProgram Level 7 / Level B1.3.\nThis online placement test is an initial level assessment of \"your\" listening and reading skills.\nThank you for taking the Berlitz Online Placement Test.\nSincerely,\nBerlitz Testing Services\nBACK TO WELCOME SCREEN\n\"ت بيه المرة لي فاتت ؟\"  \"What about the last time?\"\n\"على اسمى فى الميتنج\" \"On my name in the meeting\"\n\"إللى بعته\" \"What you sent\"\n\n\nVisual Description: The image contains a screenshot showing a Berlitz online placement test result.  A small video window displays the test-taker, \"hajar Ibhyry\". There is also a smaller screenshot of what appears to be a similar placement test result, likely for another user.  A chat window shows a conversation in Arabic with English words interspersed.  The main part of the image shows the test results, which include the test-taker's name, their achieved Berlitz level and CEF level, and program recommendations.  The visual elements are primarily textual, conveying the results of an online language placement test."
+    }
+  },
+  {
+    "frame": "Screenshot (45) (3).png",
+    "path": "/content/uploaded_images/Screenshot (45) (3).png",
+    "importance": "important",
+    "reason": "The frame displays the results of an online placement test, showing the test taker's level and recommendations for further study. This is key information and a significant event in the video.",
+    "description": {
+      "image_name": "Screenshot (45) (3).png",
+      "extracted_text": "Mr. Hajar Elbehairy\nThank you for taking the Berlitz Online Placement Test.\nYou have achieved the following result:\nBerlitz Level 6 / Level B1.2 on the CEF scale.\nWe recommend the following Berlitz program(s):\nProgram Level 6 / Level B1.2 for some useful review.\n-or-\nProgram Level 7 / Level B1.3.\nThis online placement test is an initial level assessment of \"your\" listening and reading skills.\nThank you for taking the Berlitz Online Placement Test.\nSincerely,\nBerlitz Testing Services\nBACK TO WELCOME SCREEN\n\"ت بيه المرة لي فاتت ؟\"  \"What about the last time?\"\n\"على اسمى فى الميتنج\" \"On my name in the meeting\"\n\"إللى بعته\" \"What you sent\"",
+      "visual_description": "The image contains a screenshot showing a Berlitz online placement test result.  A small embedded image shows a video feed of the test taker. There is also a small screenshot of what appears to be a similar test result, likely for another user.  A chat window shows a conversation in Arabic with English words interspersed.  The main part of the image displays the test results, including the recommended Berlitz program levels.",
+      "raw_output": "Image Name: Screenshot (45) (3).png\nExtracted Text: Mr. Hajar Elbehairy\nThank you for taking the Berlitz Online Placement Test.\nYou have achieved the following result:\nBerlitz Level 6 / Level B1.2 on the CEF scale.\nWe recommend the following Berlitz program(s):\nProgram Level 6 / Level B1.2 for some useful review.\n-or-\nProgram Level 7 / Level B1.3.\nThis online placement test is an initial level assessment of \"your\" listening and reading skills.\nThank you for taking the Berlitz Online Placement Test.\nSincerely,\nBerlitz Testing Services\nBACK TO WELCOME SCREEN\n\"ت بيه المرة لي فاتت ؟\"  \"What about the last time?\"\n\"على اسمى فى الميتنج\" \"On my name in the meeting\"\n\"إللى بعته\" \"What you sent\"\n\n\nVisual Description: The image contains a screenshot showing a Berlitz online placement test result.  A small embedded image shows a video feed of the test taker. There is also a small screenshot of what appears to be a similar test result, likely for another user.  A chat window shows a conversation in Arabic with English words interspersed.  The main part of the image displays the test results, including the recommended Berlitz program levels."
+    }
+  },
+  {
+    "frame": "Screenshot (46) (1).png",
+    "path": "/content/uploaded_images/Screenshot (46) (1).png",
+    "importance": "important",
+    "reason": "The frame displays a bar chart visualizing the total runs scored by each team in a cricket tournament. This is key information and a significant data point for any video summarizing the tournament.  The chart is clear and concise, making it an important visual element for understanding the video's content.",
+    "description": {
+      "image_name": "Screenshot (46) (1).png",
+      "extracted_text": "CWC2023\nTotal Runs Scored by Each Team\nAUS NZ IND SA PAK ENG SL BAN NED AFG\nTeams\n\"Processing... (Fetching worker time...)\"\n\"Share\"\n\"Save Version\" 4\n\"Notebook\"\n\"Input\"\n\"Add Input\"\n\"Upload\"\n\"DATASETS\"\n\"icc-cwc23-all-innings-cleaned\"\n\"Output\"\n\"/kaggle/working\"\n\"Session options\"\n\"Schedule a notebook to run\"\n\"Code Help\"\n\"Find code help\"\n\"ENG\"  \"12:05 AM\" \"07/04/2024\"",
+      "visual_description": "The image contains a bar chart showing \"Total Runs Scored by Each Team\". The horizontal axis displays the names of teams (AUS, NZ, IND, SA, PAK, ENG, SL, BAN, NED, AFG), and the vertical axis represents the \"Total Runs Scored\".  Each bar's height corresponds to the total runs scored by the respective team.  The chart visually compares the total runs scored by different teams in a cricket tournament.",
+      "raw_output": "Image Name: Screenshot (46) (1).png\nExtracted Text: CWC2023\nTotal Runs Scored by Each Team\nAUS NZ IND SA PAK ENG SL BAN NED AFG\nTeams\n\"Processing... (Fetching worker time...)\"\n\"Share\"\n\"Save Version\" 4\n\"Notebook\"\n\"Input\"\n\"Add Input\"\n\"Upload\"\n\"DATASETS\"\n\"icc-cwc23-all-innings-cleaned\"\n\"Output\"\n\"/kaggle/working\"\n\"Session options\"\n\"Schedule a notebook to run\"\n\"Code Help\"\n\"Find code help\"\n\"ENG\"  \"12:05 AM\" \"07/04/2024\"\n\n\nVisual Description: The image contains a bar chart showing \"Total Runs Scored by Each Team\". The horizontal axis displays the names of teams (AUS, NZ, IND, SA, PAK, ENG, SL, BAN, NED, AFG), and the vertical axis represents the \"Total Runs Scored\".  Each bar's height corresponds to the total runs scored by the respective team.  The chart visually compares the total runs scored by different teams in a cricket tournament."
+    }
+  },
+  {
+    "frame": "Screenshot (46) (2).png",
+    "path": "/content/uploaded_images/Screenshot (46) (2).png",
+    "importance": "important",
+    "reason": "The frame displays a bar chart visualizing the total runs scored by each team in a cricket tournament. This is key information and a significant data point for any video summarizing the tournament.  The chart is clear and concise, making it an important visual element for understanding the video's content.",
+    "description": {
+      "image_name": "Screenshot (46) (2).png",
+      "extracted_text": "CWC2023\nTotal Runs Scored by Each Team\nAUS NZ IND SA PAK ENG SL BAN NED AFG\nTeams\n\"Processing... (Fetching worker time...)\"\n\"Share\"\n\"Save Version\" 4\n\"Notebook\"\n\"Input\"\n\"Add Input\"\n\"Upload\"\n\"DATASETS\"\n\"icc-cwc23-all-innings-cleaned\"\n\"Output\"\n\"/kaggle/working\"\n\"Session options\"\n\"Schedule a notebook to run\"\n\"Code Help\"\n\"Find code help\"\n\"ENG\"  12:05 AM 07/04/2024",
+      "visual_description": "The image contains a bar chart showing the \"Total Runs Scored by Each Team\". The horizontal axis (x-axis) represents different teams (AUS, NZ, IND, SA, PAK, ENG, SL, BAN, NED, AFG), and the vertical axis (y-axis) represents the total runs scored.  Each bar's height corresponds to the total runs scored by the respective team.  The chart visually compares the total runs scored by each of the ten teams.",
+      "raw_output": "Image Name: Screenshot (46) (2).png\nExtracted Text: CWC2023\nTotal Runs Scored by Each Team\nAUS NZ IND SA PAK ENG SL BAN NED AFG\nTeams\n\"Processing... (Fetching worker time...)\"\n\"Share\"\n\"Save Version\" 4\n\"Notebook\"\n\"Input\"\n\"Add Input\"\n\"Upload\"\n\"DATASETS\"\n\"icc-cwc23-all-innings-cleaned\"\n\"Output\"\n\"/kaggle/working\"\n\"Session options\"\n\"Schedule a notebook to run\"\n\"Code Help\"\n\"Find code help\"\n\"ENG\"  12:05 AM 07/04/2024\n\n\nVisual Description: The image contains a bar chart showing the \"Total Runs Scored by Each Team\". The horizontal axis (x-axis) represents different teams (AUS, NZ, IND, SA, PAK, ENG, SL, BAN, NED, AFG), and the vertical axis (y-axis) represents the total runs scored.  Each bar's height corresponds to the total runs scored by the respective team.  The chart visually compares the total runs scored by each of the ten teams."
+    }
+  },
+  {
+    "frame": "Screenshot (46).png",
+    "path": "/content/uploaded_images/Screenshot (46).png",
+    "importance": "important",
+    "reason": "The frame displays a bar chart visualizing the total runs scored by each team in a cricket tournament. This is key information and a significant data point that would likely be central to any summary of the video's content.  The chart is clear and concise, making it an important visual element for understanding the video's subject matter.",
+    "description": {
+      "image_name": "Screenshot (46).png",
+      "extracted_text": "CWC2023\n\"Total Runs Scored by Each Team\"",
+      "visual_description": "The image contains a bar chart showing the total runs scored by each team. The x-axis represents the teams (AUS, NZ, IND, SA, PAK, ENG, SL, BAN, NED, AFG), and the y-axis represents the total runs scored.  The bars are vertically oriented, with their height corresponding to the total runs scored by each team.  The chart visually compares the performance of different teams in terms of total runs scored.",
+      "raw_output": "Image Name: Screenshot (46).png\nExtracted Text: CWC2023\n\"Total Runs Scored by Each Team\"\nVisual Description: The image contains a bar chart showing the total runs scored by each team. The x-axis represents the teams (AUS, NZ, IND, SA, PAK, ENG, SL, BAN, NED, AFG), and the y-axis represents the total runs scored.  The bars are vertically oriented, with their height corresponding to the total runs scored by each team.  The chart visually compares the performance of different teams in terms of total runs scored."
+    }
+  },
+  {
+    "frame": "Screenshot (47) (1).png",
+    "path": "/content/uploaded_images/Screenshot (47) (1).png",
+    "importance": "not_important",
+    "reason": "Failed to evaluate: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-1.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 11\n}\n]"
+  },
+  {
+    "frame": "Screenshot (47) (2).png",
+    "path": "/content/uploaded_images/Screenshot (47) (2).png",
+    "importance": "important",
+    "reason": "The frame displays a pie chart showing the distribution of batting and bowling performances, which is likely key data or a result from the video's analysis.  This is a significant visual representation of data and would be essential for understanding the video's content.",
+    "description": {
+      "image_name": "Screenshot (47) (2).png",
+      "extracted_text": "CWC2023\nDistribution of Batting and Bowling Performances\nBatting\n60.1%\n39.9%\nBowling\n\"Save & Run All complete.\"\n\"View\"\n\"Draft Session off (run a cell to start)\"\nNotebook\nInput\n\"Add Input\"\n\"Upload\"\nDATASETS\nicc-cwc23-all-innings-cleaned\nOutput\n\"/kaggle/working\"\nSession options\nSchedule a notebook to run\nCode Help\n\"Find code help\"\n\"SL 0.925926 (Fetching worker time...)\"\n\"ENG\"  \"07/04/2024\"\n\"Share\"\n\"Save Version 4\"\n\"kaggle.com/code/hajarlbhyry/cwc2023/edit/run/170559764\"\n\"Exams | Online\"\n\"ChatGPT\"\n\"FAI (General) - Goo...\"\n\"General (A15 - Sams...\"\nالبريد الوارد \"Al-Buraid Al-Ward\"",
+      "visual_description": "The image contains a pie chart showing the distribution of batting and bowling performances.  The chart is divided into two sections:  Batting (60.1%) and Bowling (39.9%).  The chart is clearly labeled.",
+      "raw_output": "Image Name: Screenshot (47) (2).png\nExtracted Text: CWC2023\nDistribution of Batting and Bowling Performances\nBatting\n60.1%\n39.9%\nBowling\n\"Save & Run All complete.\"\n\"View\"\n\"Draft Session off (run a cell to start)\"\nNotebook\nInput\n\"Add Input\"\n\"Upload\"\nDATASETS\nicc-cwc23-all-innings-cleaned\nOutput\n\"/kaggle/working\"\nSession options\nSchedule a notebook to run\nCode Help\n\"Find code help\"\n\"SL 0.925926 (Fetching worker time...)\"\n\"ENG\"  \"07/04/2024\"\n\"Share\"\n\"Save Version 4\"\n\"kaggle.com/code/hajarlbhyry/cwc2023/edit/run/170559764\"\n\"Exams | Online\"\n\"ChatGPT\"\n\"FAI (General) - Goo...\"\n\"General (A15 - Sams...\"\nالبريد الوارد \"Al-Buraid Al-Ward\"\n\n\nVisual Description: The image contains a pie chart showing the distribution of batting and bowling performances.  The chart is divided into two sections:  Batting (60.1%) and Bowling (39.9%).  The chart is clearly labeled."
+    }
+  },
+  {
+    "frame": "Screenshot (47).png",
+    "path": "/content/uploaded_images/Screenshot (47).png",
+    "importance": "important",
+    "reason": "The frame displays a pie chart showing the distribution of batting and bowling performances, which is likely key data or a result from the video's analysis.  This is a significant visual representation of data and would be essential for understanding the video's content.",
+    "description": {
+      "image_name": "Screenshot (47).png",
+      "extracted_text": "CWC2023\nDistribution of Batting and Bowling Performances\nBatting\n60.1%\n39.9%\nBowling\n\"Save & Run All complete.\"\n\"View\"\n\"Share\"\n\"Save Version\" 4\n\"Draft Session off (run a cell to start)\"\nNotebook\nInput\n\"Add Input\"\n\"Upload\"\nDATASETS\nicc-cwc23-all-innings-cleaned\nOutput\n\"/kaggle/working\"\nSession options\nSchedule a notebook to run\nCode Help\n\"Find code help\"\n\"ENG\"  07/04/2024\nالْبَرِيدُ الْوَارِدُ  \"inbox\"",
+      "visual_description": "The image contains a pie chart showing the distribution of batting and bowling performances.  The chart is divided into two segments: a larger segment representing \"Batting\" at 60.1% and a smaller segment representing \"Bowling\" at 39.9%.  The chart is clearly labeled and easy to understand.",
+      "raw_output": "Image Name: Screenshot (47).png\nExtracted Text: CWC2023\nDistribution of Batting and Bowling Performances\nBatting\n60.1%\n39.9%\nBowling\n\"Save & Run All complete.\"\n\"View\"\n\"Share\"\n\"Save Version\" 4\n\"Draft Session off (run a cell to start)\"\nNotebook\nInput\n\"Add Input\"\n\"Upload\"\nDATASETS\nicc-cwc23-all-innings-cleaned\nOutput\n\"/kaggle/working\"\nSession options\nSchedule a notebook to run\nCode Help\n\"Find code help\"\n\"ENG\"  07/04/2024\nالْبَرِيدُ الْوَارِدُ  \"inbox\"\n\n\nVisual Description: The image contains a pie chart showing the distribution of batting and bowling performances.  The chart is divided into two segments: a larger segment representing \"Batting\" at 60.1% and a smaller segment representing \"Bowling\" at 39.9%.  The chart is clearly labeled and easy to understand."
+    }
+  },
+  {
+    "frame": "Screenshot (48) (1).png",
+    "path": "/content/uploaded_images/Screenshot (48) (1).png",
+    "importance": "important",
+    "reason": "The frame displays a bar chart visualizing the top 10 run scorers in a cricket tournament (likely the Cricket World Cup 2023). This is key information and a significant data point that would likely be included in a summary video about the tournament.",
+    "description": {
+      "image_name": "Screenshot (48) (1).png",
+      "extracted_text": "CWC2023\nTop 10 Run Scorers\nSave & Run All complete.\n\"Draft Session off (run a cell to start)\"\nNotebook\nInput\nAdd Input\nUpload\nDATASETS\nicc-cwc23-all-innings-cleaned\nOutput\n/kaggle/working\nSession options\nSchedule a notebook to run\nCode Help\nFind code help\n\"البريد الوارد\"  \"Mail\"",
+      "visual_description": "The image contains a bar chart visualizing the \"Top 10 Run Scorers\". The chart's vertical axis represents \"Runs Scored,\" ranging from 0 to 200. The horizontal axis displays abbreviations likely representing countries or teams (e.g., \"(SA)\", \"(AUS)\", \"(NZ)\", \"(ENG)\").  Each bar's height corresponds to the number of runs scored by that team, with varying shades of green used to represent the different scores.  The chart is embedded within a larger Kaggle notebook interface.",
+      "raw_output": "Image Name: Screenshot (48) (1).png\nExtracted Text: CWC2023\nTop 10 Run Scorers\nSave & Run All complete.\n\"Draft Session off (run a cell to start)\"\nNotebook\nInput\nAdd Input\nUpload\nDATASETS\nicc-cwc23-all-innings-cleaned\nOutput\n/kaggle/working\nSession options\nSchedule a notebook to run\nCode Help\nFind code help\n\"البريد الوارد\"  \"Mail\"\n\n\nVisual Description: The image contains a bar chart visualizing the \"Top 10 Run Scorers\". The chart's vertical axis represents \"Runs Scored,\" ranging from 0 to 200. The horizontal axis displays abbreviations likely representing countries or teams (e.g., \"(SA)\", \"(AUS)\", \"(NZ)\", \"(ENG)\").  Each bar's height corresponds to the number of runs scored by that team, with varying shades of green used to represent the different scores.  The chart is embedded within a larger Kaggle notebook interface."
+    }
+  },
+  {
+    "frame": "Screenshot (48) (2).png",
+    "path": "/content/uploaded_images/Screenshot (48) (2).png",
+    "importance": "important",
+    "reason": "The frame displays a bar chart visualizing the top 10 run scorers in a cricket tournament (likely the Cricket World Cup 2023, given the URL). This is key information and a significant data point that would likely be included in a summary video about the tournament.",
+    "description": {
+      "image_name": "Screenshot (48) (2).png",
+      "extracted_text": "CWC2023\nTop 10 Run Scorers\nSave & Run All complete.\n\"Draft Session off (run a cell to start)\"\nNotebook\nInput\nAdd Input\nUpload\nDATASETS\nicc-cwc23-all-innings-cleaned\nOutput\n/kaggle/working\nSession options\nSchedule a notebook to run\nCode Help\nFind code help",
+      "visual_description": "The image contains a bar chart visualizing the \"Top 10 Run Scorers\".  The chart displays the number of runs scored on the y-axis and the teams (e.g., \"(SA)\", \"(AUS)\", \"(NZ)\", etc.) on the x-axis. The bars are color-coded, with varying shades of green representing different run totals for each team.  The chart's title is clearly visible, and the axes are labeled.",
+      "raw_output": "Image Name: Screenshot (48) (2).png\n\nExtracted Text: CWC2023\nTop 10 Run Scorers\nSave & Run All complete.\n\"Draft Session off (run a cell to start)\"\nNotebook\nInput\nAdd Input\nUpload\nDATASETS\nicc-cwc23-all-innings-cleaned\nOutput\n/kaggle/working\nSession options\nSchedule a notebook to run\nCode Help\nFind code help\n\n\nVisual Description: The image contains a bar chart visualizing the \"Top 10 Run Scorers\".  The chart displays the number of runs scored on the y-axis and the teams (e.g., \"(SA)\", \"(AUS)\", \"(NZ)\", etc.) on the x-axis. The bars are color-coded, with varying shades of green representing different run totals for each team.  The chart's title is clearly visible, and the axes are labeled."
+    }
+  },
+  {
+    "frame": "Screenshot (48).png",
+    "path": "/content/uploaded_images/Screenshot (48).png",
+    "importance": "important",
+    "reason": "The frame displays a bar chart visualizing the top 10 run scorers in a cricket tournament (likely the Cricket World Cup 2023). This is key information and a significant data point that would likely be included in a summary video about the tournament.",
+    "description": {
+      "image_name": "Screenshot (48).png",
+      "extracted_text": "CWC2023\nTop 10 Run Scorers\nSave & Run All complete.\n\"Draft Session off (run a cell to start)\"\nNotebook\nInput\nAdd Input\nUpload\nDATASETS\nicc-cwc23-all-innings-cleaned\nOutput\n/kaggle/working\nSession options\nSchedule a notebook to run\nCode Help\nFind code help\n\"kaggle.com/code/hajarlbhyry/cwc2023/edit/run/170559764\"\n\"Exams | Online\"\n\"ChatGPT\"\n\"FAI (General) - Goo...\"\n\"General (A15 - Sams...\"",
+      "visual_description": "The image contains a bar chart showing the \"Top 10 Run Scorers\". The chart's vertical axis represents \"Runs Scored\", ranging from 0 to 200. The horizontal axis displays abbreviations likely representing countries or teams (e.g., \"(SA)\", \"(AUS)\", \"(NZ)\", \"(ENG)\").  Each bar's height corresponds to the number of runs scored by that team, with varying shades of green used to represent the different scores.  The chart provides a visual comparison of the top 10 teams' run scores.",
+      "raw_output": "Image Name: Screenshot (48).png\nExtracted Text: CWC2023\nTop 10 Run Scorers\nSave & Run All complete.\n\"Draft Session off (run a cell to start)\"\nNotebook\nInput\nAdd Input\nUpload\nDATASETS\nicc-cwc23-all-innings-cleaned\nOutput\n/kaggle/working\nSession options\nSchedule a notebook to run\nCode Help\nFind code help\n\"kaggle.com/code/hajarlbhyry/cwc2023/edit/run/170559764\"\n\"Exams | Online\"\n\"ChatGPT\"\n\"FAI (General) - Goo...\"\n\"General (A15 - Sams...\"\n\n\nVisual Description: The image contains a bar chart showing the \"Top 10 Run Scorers\". The chart's vertical axis represents \"Runs Scored\", ranging from 0 to 200. The horizontal axis displays abbreviations likely representing countries or teams (e.g., \"(SA)\", \"(AUS)\", \"(NZ)\", \"(ENG)\").  Each bar's height corresponds to the number of runs scored by that team, with varying shades of green used to represent the different scores.  The chart provides a visual comparison of the top 10 teams' run scores."
+    }
+  },
+  {
+    "frame": "Screenshot (49) (1).png",
+    "path": "/content/uploaded_images/Screenshot (49) (1).png",
+    "importance": "important",
+    "reason": "The frame displays a bar chart visualizing wickets taken by different players in a cricket tournament. This is key information and a significant data point for a video about the tournament.  The chart is clear and concise, making it an important frame for a summary.",
+    "description": {
+      "image_name": "Screenshot (49) (1).png",
+      "extracted_text": "CWC2023\nkaggle.com/code/hajarlbhyry/cwc2023/edit/run/170559764\n\"Exams | Online\"  ChatGPT \"FAI (General) - Goo...\" \"General (A15 - Sams...\"\n\"Draft Session off (run a cell to start)\"\nNotebook\nInput\n\"Add Input\"  Upload\nDATASETS\nicc-cwc23-all-innings-cleaned\nOutput\n/kaggle/working\nSession options\nSchedule a notebook to run\nCode Help\n\"Find code help\"\n\"Save & Run All complete.\"  View\n\"Wickets Taken\"\nShami (IND)  Afridi (PAK)  MJ Santner (NZ)  Madushanka (SL)  RA Jadeja (IND)  Hasan Ali (PAK)  Mehedi Hasan (BAN)",
+      "visual_description": "The image contains a bar chart showing the number of wickets taken by different players. The x-axis displays the names of the players along with their team abbreviations in parentheses (e.g., \"Shami (IND)\"). The y-axis represents the number of wickets taken. Each bar corresponds to a player, and its height indicates the number of wickets taken by that player.  The chart uses a color gradient for the bars, with varying shades of purple.  One bar is a darker purple than the others.",
+      "raw_output": "Image Name: Screenshot (49) (1).png\nExtracted Text: CWC2023\nkaggle.com/code/hajarlbhyry/cwc2023/edit/run/170559764\n\"Exams | Online\"  ChatGPT \"FAI (General) - Goo...\" \"General (A15 - Sams...\"\n\"Draft Session off (run a cell to start)\"\nNotebook\nInput\n\"Add Input\"  Upload\nDATASETS\nicc-cwc23-all-innings-cleaned\nOutput\n/kaggle/working\nSession options\nSchedule a notebook to run\nCode Help\n\"Find code help\"\n\"Save & Run All complete.\"  View\n\"Wickets Taken\"\nShami (IND)  Afridi (PAK)  MJ Santner (NZ)  Madushanka (SL)  RA Jadeja (IND)  Hasan Ali (PAK)  Mehedi Hasan (BAN)\n\n\nVisual Description: The image contains a bar chart showing the number of wickets taken by different players. The x-axis displays the names of the players along with their team abbreviations in parentheses (e.g., \"Shami (IND)\"). The y-axis represents the number of wickets taken. Each bar corresponds to a player, and its height indicates the number of wickets taken by that player.  The chart uses a color gradient for the bars, with varying shades of purple.  One bar is a darker purple than the others."
+    }
+  },
+  {
+    "frame": "Screenshot (49) (2).png",
+    "path": "/content/uploaded_images/Screenshot (49) (2).png",
+    "importance": "important",
+    "reason": "The frame displays a bar chart visualizing wickets taken by different players in a cricket tournament. This is key information and a significant data point that would likely be included in a summary of the tournament or a match analysis.",
+    "description": {
+      "image_name": "Screenshot (49) (2).png",
+      "extracted_text": "CWC2023\nDraft saved\nFile Edit View Run Add-ons Help\nSave & Run All complete.\nView\n\"Draft Session off (run a cell to start)\"\nNotebook\nInput\n+ Add Input\nUpload\nDATASETS\nicc-cwc23-all-innings-cleaned\nOutput\n/kaggle/working\nSession options\nSchedule a notebook to run\nCode Help\nFind code help\n\"Mail البريد الوارد\"",
+      "visual_description": "The image contains a bar chart showing the number of wickets taken by different players.  The x-axis displays the names of the players, each with their country indicated in parentheses (e.g., \"Shami (IND)\"). The y-axis represents the number of wickets taken.  The bars are color-coded, with varying heights representing the number of wickets for each player.  The chart is titled implicitly by the y-axis label \"Wickets Taken\".",
+      "raw_output": "Image Name: Screenshot (49) (2).png\nExtracted Text: CWC2023\nDraft saved\nFile Edit View Run Add-ons Help\nSave & Run All complete.\nView\n\"Draft Session off (run a cell to start)\"\nNotebook\nInput\n+ Add Input\nUpload\nDATASETS\nicc-cwc23-all-innings-cleaned\nOutput\n/kaggle/working\nSession options\nSchedule a notebook to run\nCode Help\nFind code help\n\"Mail البريد الوارد\"\n\n\nVisual Description: The image contains a bar chart showing the number of wickets taken by different players.  The x-axis displays the names of the players, each with their country indicated in parentheses (e.g., \"Shami (IND)\"). The y-axis represents the number of wickets taken.  The bars are color-coded, with varying heights representing the number of wickets for each player.  The chart is titled implicitly by the y-axis label \"Wickets Taken\"."
+    }
+  },
+  {
+    "frame": "Screenshot (49).png",
+    "path": "/content/uploaded_images/Screenshot (49).png",
+    "importance": "important",
+    "reason": "The frame displays a bar chart visualizing wickets taken by different players in a cricket tournament. This is key information and a significant data point for any summary of the tournament or related analysis.",
+    "description": {
+      "image_name": "Screenshot (49).png",
+      "extracted_text": "CWC2023",
+      "visual_description": "The image contains a bar chart showing the number of wickets taken by different players. The x-axis displays the names of the players along with their team abbreviations in parentheses (e.g., \"Shami (IND)\"). The y-axis represents the number of wickets taken.  Each bar corresponds to a player, and its height indicates the number of wickets taken by that player.  The chart uses a color gradient for the bars, with varying shades of purple. One bar is a darker purple than the others.",
+      "raw_output": "Image Name: Screenshot (49).png\nExtracted Text: CWC2023\nVisual Description: The image contains a bar chart showing the number of wickets taken by different players. The x-axis displays the names of the players along with their team abbreviations in parentheses (e.g., \"Shami (IND)\"). The y-axis represents the number of wickets taken.  Each bar corresponds to a player, and its height indicates the number of wickets taken by that player.  The chart uses a color gradient for the bars, with varying shades of purple. One bar is a darker purple than the others."
+    }
+  },
+  {
+    "frame": "WhatsApp Image 2025-01-01 at 11.53.52 PM (1).jpeg",
+    "path": "/content/uploaded_images/WhatsApp Image 2025-01-01 at 11.53.52 PM (1).jpeg",
+    "importance": "not_important",
+    "reason": "The frame shows a person sitting on the stairs of a building. While the building itself might be of interest, the person's presence and pose do not add essential information to a potential video summary.  The scene is static and doesn't depict a key moment or event."
+  },
+  {
+    "frame": "WhatsApp Image 2025-01-01 at 11.53.52 PM (2).jpeg",
+    "path": "/content/uploaded_images/WhatsApp Image 2025-01-01 at 11.53.52 PM (2).jpeg",
+    "importance": "not_important",
+    "reason": "Failed to evaluate: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-1.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 19\n}\n]"
+  },
+  {
+    "frame": "WhatsApp Image 2025-01-01 at 11.53.52 PM.jpeg",
+    "path": "/content/uploaded_images/WhatsApp Image 2025-01-01 at 11.53.52 PM.jpeg",
+    "importance": "not_important",
+    "reason": "The frame shows a person sitting on the stairs of a building. While the building itself might be of interest, the person's presence and pose do not add essential information to a potential video summary.  The scene is static and doesn't depict a key moment or event."
+  },
+  {
+    "frame": "WhatsApp Image 2025-01-12 at 10.27.21 AM (1).jpeg",
+    "path": "/content/uploaded_images/WhatsApp Image 2025-01-12 at 10.27.21 AM (1).jpeg",
+    "importance": "not_important",
+    "reason": "Failed to evaluate: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-1.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 14\n}\n]"
+  },
+  {
+    "frame": "WhatsApp Image 2025-01-12 at 10.27.21 AM (2).jpeg",
+    "path": "/content/uploaded_images/WhatsApp Image 2025-01-12 at 10.27.21 AM (2).jpeg",
+    "importance": "not_important",
+    "reason": "Failed to evaluate: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-1.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 11\n}\n]"
+  },
+  {
+    "frame": "WhatsApp Image 2025-01-12 at 10.27.21 AM (3).jpeg",
+    "path": "/content/uploaded_images/WhatsApp Image 2025-01-12 at 10.27.21 AM (3).jpeg",
+    "importance": "not_important",
+    "reason": "Failed to evaluate: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-1.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 8\n}\n]"
+  },
+  {
+    "frame": "keyframe_0000 (2).jpg",
+    "path": "/content/uploaded_images/keyframe_0000 (2).jpg",
+    "importance": "not_important",
+    "reason": "Failed to evaluate: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-1.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 5\n}\n]"
+  },
+  {
+    "frame": "keyframe_0000 (3).jpg",
+    "path": "/content/uploaded_images/keyframe_0000 (3).jpg",
+    "importance": "not_important",
+    "reason": "Failed to evaluate: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-1.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 3\n}\n]"
+  },
+  {
+    "frame": "keyframe_0000 (4).jpg",
+    "path": "/content/uploaded_images/keyframe_0000 (4).jpg",
+    "importance": "not_important",
+    "reason": "Failed to evaluate: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-1.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n}\n]"
+  },
+  {
+    "frame": "keyframe_0001 (2).jpg",
+    "path": "/content/uploaded_images/keyframe_0001 (2).jpg",
+    "importance": "not_important",
+    "reason": "Failed to evaluate: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-1.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 50\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 58\n}\n]"
+  },
+  {
+    "frame": "keyframe_0001 (3).jpg",
+    "path": "/content/uploaded_images/keyframe_0001 (3).jpg",
+    "importance": "important",
+    "reason": "The frame contains a detailed outline of the course content, which is essential information for understanding the video's subject matter.  This is a key moment in the video, providing context and structure.",
+    "description": {
+      "image_name": "keyframe_0001 (3).jpg",
+      "extracted_text": "Error processing text",
+      "visual_description": "Error generating description",
+      "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-1.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 50\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 53\n}\n]"
+    }
+  },
+  {
+    "frame": "keyframe_0001 (4).jpg",
+    "path": "/content/uploaded_images/keyframe_0001 (4).jpg",
+    "importance": "not_important",
+    "reason": "Failed to evaluate: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-1.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 50\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 51\n}\n]"
+  },
+  {
+    "frame": "keyframe_0002 (3).jpg",
+    "path": "/content/uploaded_images/keyframe_0002 (3).jpg",
+    "importance": "not_important",
+    "reason": "Failed to evaluate: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-1.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 50\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 48\n}\n]"
+  },
+  {
+    "frame": "keyframe_0002 (4).jpg",
+    "path": "/content/uploaded_images/keyframe_0002 (4).jpg",
+    "importance": "not_important",
+    "reason": "Failed to evaluate: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-1.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 50\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 46\n}\n]"
+  },
+  {
+    "frame": "keyframe_0002 (5).jpg",
+    "path": "/content/uploaded_images/keyframe_0002 (5).jpg",
+    "importance": "not_important",
+    "reason": "Failed to evaluate: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-1.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 50\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 43\n}\n]"
+  },
+  {
+    "frame": "keyframe_0003 (2).jpg",
+    "path": "/content/uploaded_images/keyframe_0003 (2).jpg",
+    "importance": "not_important",
+    "reason": "Failed to evaluate: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-1.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 50\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 40\n}\n]"
+  },
+  {
+    "frame": "keyframe_0003 (3).jpg",
+    "path": "/content/uploaded_images/keyframe_0003 (3).jpg",
+    "importance": "not_important",
+    "reason": "Failed to evaluate: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-1.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 50\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 38\n}\n]"
+  },
+  {
+    "frame": "keyframe_0003 (4).jpg",
+    "path": "/content/uploaded_images/keyframe_0003 (4).jpg",
+    "importance": "not_important",
+    "reason": "Failed to evaluate: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-1.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 50\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 35\n}\n]"
+  },
+  {
+    "frame": "keyframe_0004 (2).jpg",
+    "path": "/content/uploaded_images/keyframe_0004 (2).jpg",
+    "importance": "not_important",
+    "reason": "Failed to evaluate: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-1.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 50\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 32\n}\n]"
+  },
+  {
+    "frame": "keyframe_0004 (3).jpg",
+    "path": "/content/uploaded_images/keyframe_0004 (3).jpg",
+    "importance": "not_important",
+    "reason": "Failed to evaluate: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-1.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 50\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 30\n}\n]"
+  },
+  {
+    "frame": "keyframe_0004 (4).jpg",
+    "path": "/content/uploaded_images/keyframe_0004 (4).jpg",
+    "importance": "not_important",
+    "reason": "Failed to evaluate: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-1.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 50\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 27\n}\n]"
+  },
+  {
+    "frame": "keyframe_0005 (2).jpg",
+    "path": "/content/uploaded_images/keyframe_0005 (2).jpg",
+    "importance": "not_important",
+    "reason": "Failed to evaluate: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-1.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 50\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 24\n}\n]"
+  },
+  {
+    "frame": "keyframe_0005 (3).jpg",
+    "path": "/content/uploaded_images/keyframe_0005 (3).jpg",
+    "importance": "not_important",
+    "reason": "Failed to evaluate: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-1.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 50\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 22\n}\n]"
+  },
+  {
+    "frame": "keyframe_0005 (4).jpg",
+    "path": "/content/uploaded_images/keyframe_0005 (4).jpg",
+    "importance": "not_important",
+    "reason": "Failed to evaluate: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-1.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 50\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 19\n}\n]"
+  },
+  {
+    "frame": "reference-list-template-04 (1).jpg",
+    "path": "/content/uploaded_images/reference-list-template-04 (1).jpg",
+    "importance": "not_important",
+    "reason": "Failed to evaluate: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-1.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 50\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 16\n}\n]"
+  },
+  {
+    "frame": "reference-list-template-04 (2).jpg",
+    "path": "/content/uploaded_images/reference-list-template-04 (2).jpg",
+    "importance": "not_important",
+    "reason": "Failed to evaluate: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-1.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 50\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 13\n}\n]"
+  },
+  {
+    "frame": "reference-list-template-04.jpg",
+    "path": "/content/uploaded_images/reference-list-template-04.jpg",
+    "importance": "not_important",
+    "reason": "Failed to evaluate: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-1.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 50\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 10\n}\n]"
+  }
+]

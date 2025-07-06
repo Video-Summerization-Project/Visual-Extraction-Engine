@@ -2,3 +2,4 @@ venv/
 RawVideos/
 __pycache__/
 outputs/
+.env
