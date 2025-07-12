@@ -65,12 +65,14 @@ def save_records(records, output_dir, output_csv, fps):
 
     rows = []
     for i, (frame, frame_idx) in enumerate(records):
-        frame_name = f"keyframe_{i:04d}.jpg"
+        timestamp = _get_timestamp(frame_idx, fps)
+        sanitized_timestamp = timestamp.replace(':', '-').replace('.', '-')
+        frame_name = f"{sanitized_timestamp}.jpg"
         out_path = os.path.join(output_dir, frame_name)
         cv2.imwrite(out_path, frame, [int(cv2.IMWRITE_JPEG_QUALITY), 70])
-        timestamp = _get_timestamp(frame_idx, fps)
         rows.append([out_path, timestamp])
 
     df = pd.DataFrame(rows, columns=["keyframe", "timestamp"])
     df.to_csv(output_csv, index=False)
     return df
+
